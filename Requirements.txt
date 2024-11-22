@@ -1,18 +1,6 @@
-# Generating an updated requirements.txt file for the enhanced Streamlit project
+streamlit
+streamlit-option-menu
+numpy
+pandas
+plotly
 
-requirements = """
-streamlit==1.26.0
-pandas==1.5.3
-numpy==1.23.5
-scikit-learn==1.2.2
-streamlit-option-menu==0.3.2
-matplotlib==3.7.1
-openai==0.27.8
-"""
-
-# Save the updated requirements.txt
-updated_requirements_path = "/mnt/data/updated_requirements.txt"
-with open(updated_requirements_path, "w") as file:
-    file.write(requirements)
-
-updated_requirements_path
